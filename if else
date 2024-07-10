@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{   float dtb;
+    cout<<"nhap diem trung binh cua ban: ";
+    cin>>dtb;
+    if (dtb>=8) {cout<<"ban dat hoc sinh gioi";}
+    else if (6.5<=dtb && dtb<8) {cout<<"ban dat hoc sinh tien tien";}
+    else {cout<<"ban dat hoc sinh yeu";}
+    
+}
